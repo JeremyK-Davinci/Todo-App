@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    margin: 0;
+    overflow: hidden;
+    overflow-y: auto;
+    background-image: linear-gradient(to right, #202020, #111119);
+    background-size: cover;
+}
+
+#HeaderText{
+    font-size: 72px;
+}
+
+.form-container{
+    margin-top: 7.5%;
+}
+
+.form-submit{
+    border: none;
+    background: none;
+    color: green;
+    text-decoration: none;
+    text-align: center;
+    overflow: hidden;
+    transition: 0.5s;
+    position: relative;
+    height: 2rem;
+}
+
+.form-submit:hover{
+    color: black;
+    background-color: green;
+    box-shadow: 0 0 10px green, 0 0 40px green;
+}
+
+@media screen and (max-width: 600px){
+    #HeaderText{
+        font-size: 56px;
+    }
+}
+
+@media screen and (max-width: 400px){
+    #HeaderText{
+        font-size: 40px;
+    }
+}
