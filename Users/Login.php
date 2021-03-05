@@ -26,12 +26,12 @@
         <?php if(!empty($error) && $errorId == 2 || $errorId == 3){?>
             <div class="form-group text-left text-white">
                 <label for="loginPass">Password</label>
-                <input class="form-control border-danger" data-toggle="tooltip" title="<?=$error?>" type="password" name="loginPass" required>
+                <input class="form-control border-danger" data-toggle="tooltip" title="<?=$error?>" type="password" name="loginPass" pattern=".{8,}" required>
             </div>   
         <?php } else{?>
             <div class="form-group text-left text-white">
                 <label for="loginPass">Password</label>
-                <input class="form-control" type="password" name="loginPass" required>
+                <input class="form-control" type="password" name="loginPass" pattern=".{8,}" required>
             </div>  
         <?php }?>
 

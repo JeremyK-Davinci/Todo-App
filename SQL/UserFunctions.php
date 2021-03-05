@@ -45,20 +45,29 @@
     }
 
     function attemptRegistration(){
-        $username = sanitize($_POST['registerName']);
-        $mail = sanitize($_POST['registerMail']);
-        $password = sanitize($_POST['registerPass']);
-        $passwordConfirm = sanitize($_POST['registerPassConfirm']);
+        $username = $_POST['registerName'];
+        $mail = $_POST['registerMail'];
+        $password = $_POST['registerPass'];
+        $passwordConfirm = $_POST['registerPassConfirm'];
 
         if(empty(trim($username))){
-            header("location: ../Users/Login.php?error=4");
+            header("location: ../Users/Register.php?error=4");
+            return;
         }
         if(empty(trim($mail))){
-            header("location: ../Users/Login.php?error=5");
+            header("location: ../Users/Register.php?error=5");
+            return;
+
         }
-        if($password != $passwordConfirm){
-            header("location: ../Users/Login.php?error=6");
+        if(md5($password) !== md5($passwordConfirm)){
+            header("location: ../Users/Register.php?error=6");
+            return;
         }
+
+        sanitize($username);
+        sanitize($mail);
+        sanitize($password);
+        sanitize($passwordConfirm);
 
         try{
             session_start();

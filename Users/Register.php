@@ -27,30 +27,30 @@
         <?php if(!empty($error) && $errorId == 5 || $errorId == 8){?>
             <div class="form-group text-left text-white">
                 <label for="registerMail">E-mail</label>
-                <input class="form-control border-danger" data-toggle="tooltip" title="<?=$error?>" type="text" name="registerMail" required>
+                <input class="form-control border-danger" data-toggle="tooltip" title="<?=$error?>" type="text" name="registerMail" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" required>
             </div>
         <?php } else {?>
             <div class="form-group text-left text-white">
                 <label for="registerMail">E-mail</label>
-                <input class="form-control" type="text" name="registerMail" required>
+                <input class="form-control" type="text" name="registerMail" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" required>
             </div>
         <?php }?>
 
         <?php if(!empty($error) && $errorId == 6){?>
             <div class="form-group text-left text-white">
                 <label for="registerPass">Password</label>
-                <input class="form-control border-danger" data-toggle="tooltip" title="<?=$error?>" type="password" name="registerPass" required>
+                <input class="form-control border-danger" data-toggle="tooltip" title="<?=$error?>" type="password" name="registerPass" pattern=".{8,}" required>
             </div> 
         <?php } else {?>
             <div class="form-group text-left text-white">
                 <label for="registerPass">Password</label>
-                <input class="form-control" type="password" name="registerPass" required>
+                <input class="form-control" type="password" name="registerPass" pattern=".{8,}" required>
             </div> 
         <?php }?>
 
         <div class="form-group text-left text-white">
             <label for="registerPassConfirm">Confirm Password</label>
-            <input class="form-control" type="password" name="registerPassConfirm" required>
+            <input class="form-control" type="password" name="registerPassConfirm" pattern=".{8,}" required>
         </div>
         <div class="form-group text-center">
             <input class="form-submit col-8 col-lg-6 rounded" type="submit" name="register" value="Register">
