@@ -40,6 +40,10 @@
                 return "Username already exists";
             case 8:
                 return "E-mail already exists";
+            case 9:
+                return "Server recieved incorrect note id and aborted";
+            case 10:
+                return "The card that was accessed does not belong to you";
         }
     }
 

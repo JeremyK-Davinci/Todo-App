@@ -1,0 +1,604 @@
+{
+    "Releases": [
+        {
+            "Name": "SK? (Dub)",
+            "Link": "https://gogoanime.ai/sk-dub-episode-4",
+            "Image": "https://cdnimg.xyz/cover/sk-dub.png",
+            "Episode": "Episode 4"
+        },
+        {
+            "Name": "Taisou Zamurai (Dub)",
+            "Link": "https://gogoanime.ai/taisou-zamurai-dub-episode-9",
+            "Image": "https://cdnimg.xyz/cover/taisou-zamurai-dub.png",
+            "Episode": "Episode 9"
+        },
+        {
+            "Name": "Horimiya (Dub)",
+            "Link": "https://gogoanime.ai/horimiya-dub-episode-4",
+            "Image": "https://cdnimg.xyz/cover/horimiya-dub.png",
+            "Episode": "Episode 4"
+        },
+        {
+            "Name": "Nami yo Kiitekure (Dub)",
+            "Link": "https://gogoanime.ai/nami-yo-kiitekure-dub-episode-12",
+            "Image": "https://cdnimg.xyz/cover/nami-yo-kiitekure-dub.png",
+            "Episode": "Episode 12"
+        },
+        {
+            "Name": "Hanyou no Yashahime: Sengoku Otogizoushi (Dub)",
+            "Link": "https://gogoanime.ai/hanyou-no-yashahime-sengoku-otogizoushi-dub-episode-15",
+            "Image": "https://cdnimg.xyz/cover/hanyou-no-yashahime-sengoku-otogizoushi-dub.png",
+            "Episode": "Episode 15"
+        },
+        {
+            "Name": "Jujutsu Kaisen (TV) (Dub)",
+            "Link": "https://gogoanime.ai/jujutsu-kaisen-tv-dub-episode-14",
+            "Image": "https://cdnimg.xyz/cover/jujutsu-kaisen-tv-dub.png",
+            "Episode": "Episode 14"
+        },
+        {
+            "Name": "Kumo Desu ga, Nani ka? (Dub)",
+            "Link": "https://gogoanime.ai/kumo-desu-ga-nani-ka-dub-episode-3",
+            "Image": "https://cdnimg.xyz/cover/kumo-desu-ga-nani-ka-dub.png",
+            "Episode": "Episode 3"
+        },
+        {
+            "Name": "Pokemon (2019) (Dub)",
+            "Link": "https://gogoanime.ai/pokemon-2019-dub-episode-48",
+            "Image": "https://cdnimg.xyz/cover/pokemon-2019-dub.png",
+            "Episode": "Episode 48"
+        },
+        {
+            "Name": "Tomica Kizuna Gattai: Earth Granner (Dub)",
+            "Link": "https://gogoanime.ai/tomica-kizuna-gattai-earth-granner-dub-episode-32",
+            "Image": "https://cdnimg.xyz/cover/tomica-kizuna-gattai-earth-granner-dub.png",
+            "Episode": "Episode 32"
+        },
+        {
+            "Name": "Enen no Shouboutai: Ni no Shou (Dub)",
+            "Link": "https://gogoanime.ai/enen-no-shouboutai-ni-no-shou-dub-episode-21",
+            "Image": "https://cdnimg.xyz/cover/enen-no-shouboutai-ni-no-shou-dub.png",
+            "Episode": "Episode 21"
+        },
+        {
+            "Name": "Pacific Rim: The Black (Dub)",
+            "Link": "https://gogoanime.ai/pacific-rim-the-black-dub-episode-7",
+            "Image": "https://cdnimg.xyz/cover/pacific-rim-the-black-dub.png",
+            "Episode": "Episode 7"
+        },
+        {
+            "Name": "Majo no Tabitabi (Dub)",
+            "Link": "https://gogoanime.ai/majo-no-tabitabi-dub-episode-8",
+            "Image": "https://cdnimg.xyz/cover/majo-no-tabitabi-dub.png",
+            "Episode": "Episode 8"
+        },
+        {
+            "Name": "Cap Kakumei Bottleman (Dub)",
+            "Link": "https://gogoanime.ai/cap-kakumei-bottleman-dub-episode-20",
+            "Image": "https://cdnimg.xyz/cover/cap-kakumei-bottleman-dub.png",
+            "Episode": "Episode 20"
+        },
+        {
+            "Name": "Adachi to Shimamura (Dub)",
+            "Link": "https://gogoanime.ai/adachi-to-shimamura-dub-episode-3",
+            "Image": "https://cdnimg.xyz/cover/adachi-to-shimamura-dub.png",
+            "Episode": "Episode 3"
+        },
+        {
+            "Name": "Higurashi no Naku Koro ni Gou (Dub)",
+            "Link": "https://gogoanime.ai/higurashi-no-naku-koro-ni-gou-dub-episode-11",
+            "Image": "https://cdnimg.xyz/cover/higurashi-no-naku-koro-ni-gou-dub.png",
+            "Episode": "Episode 11"
+        },
+        {
+            "Name": "Akudama Drive (Dub)",
+            "Link": "https://gogoanime.ai/akudama-drive-dub-episode-11",
+            "Image": "https://cdnimg.xyz/cover/akudama-drive-dub.png",
+            "Episode": "Episode 11"
+        },
+        {
+            "Name": "Assault Lily: Bouquet (Dub)",
+            "Link": "https://gogoanime.ai/assault-lily-bouquet-dub-episode-12",
+            "Image": "https://cdnimg.xyz/cover/assault-lily-bouquet-dub.png",
+            "Episode": "Episode 12"
+        },
+        {
+            "Name": "Little Witch Academia (TV) (Dub)",
+            "Link": "https://gogoanime.ai/little-witch-academia-tv-dub-episode-22",
+            "Image": "https://cdnimg.xyz/cover/little-witch-academia-tv-dub.png",
+            "Episode": "Episode 22"
+        },
+        {
+            "Name": "Megazone 23 (Dub)",
+            "Link": "https://gogoanime.ai/megazone-23-dub-episode-4",
+            "Image": "https://cdnimg.xyz/cover/megazone-23-dub.png",
+            "Episode": "Episode 4"
+        },
+        {
+            "Name": "Re:Zero kara Hajimeru Isekai Seikatsu 2nd Season Part 2 (Dub)",
+            "Link": "https://gogoanime.ai/rezero-kara-hajimeru-isekai-seikatsu-2nd-season-part-2-dub-episode-1",
+            "Image": "https://cdnimg.xyz/cover/rezero-kara-hajimeru-isekai-seikatsu-2nd-season-part-2-dub.png",
+            "Episode": "Episode 1"
+        },
+        {
+            "Name": "Kimi to Boku no Saigo no Senjou, Aruiwa Sekai ga Hajimaru Seisen (Dub)",
+            "Link": "https://gogoanime.ai/kimi-to-boku-no-saigo-no-senjou-aruiwa-sekai-ga-hajimaru-seisen-dub-episode-12",
+            "Image": "https://cdnimg.xyz/cover/kimi-to-boku-no-saigo-no-senjou-aruiwa-sekai-ga-hajimaru-seisen-dub.png",
+            "Episode": "Episode 12"
+        },
+        {
+            "Name": "Log Horizon: Entaku Houkai (Dub)",
+            "Link": "https://gogoanime.ai/log-horizon-entaku-houkai-dub-episode-2",
+            "Image": "https://cdnimg.xyz/cover/log-horizon-entaku-houkai-dub.png",
+            "Episode": "Episode 2"
+        },
+        {
+            "Name": "Lord El-Melloi II Sei no Jikenbo: Rail Zeppelin Grace Note (Dub)",
+            "Link": "https://gogoanime.ai/lord-el-melloi-ii-sei-no-jikenbo-rail-zeppelin-grace-note-dub-episode-13",
+            "Image": "https://cdnimg.xyz/cover/lord-el-melloi-ii-sei-no-jikenbo-rail-zeppelin-grace-note-dub.png",
+            "Episode": "Episode 13"
+        },
+        {
+            "Name": "Bungou Stray Dogs Wan! (Dub)",
+            "Link": "https://gogoanime.ai/bungou-stray-dogs-wan-dub-episode-2",
+            "Image": "https://cdnimg.xyz/cover/bungou-stray-dogs-wan-dub.png",
+            "Episode": "Episode 2"
+        },
+        {
+            "Name": "Tensei shitara Slime Datta Ken 2nd Season (Dub)",
+            "Link": "https://gogoanime.ai/tensei-shitara-slime-datta-ken-2nd-season-dub-episode-2",
+            "Image": "https://cdnimg.xyz/cover/tensei-shitara-slime-datta-ken-2nd-season-dub.png",
+            "Episode": "Episode 2"
+        },
+        {
+            "Name": "Lupin III: Part II (Dub)",
+            "Link": "https://gogoanime.ai/lupin-iii-part-ii-dub-episode-79",
+            "Image": "https://cdnimg.xyz/cover/lupin-iii-part-ii-dub.png",
+            "Episode": "Episode 79"
+        },
+        {
+            "Name": "Lord El-Melloi II Sei no Jikenbo: Rail Zeppelin Grace Note - Hakamori to Neko to Majutsushi (Dub)",
+            "Link": "https://gogoanime.ai/lord-el-melloi-ii-sei-no-jikenbo-rail-zeppelin-grace-note-hakamori-to-neko-to-majutsushi-dub-episode-1",
+            "Image": "https://cdnimg.xyz/cover/lord-el-melloi-ii-sei-no-jikenbo-rail-zeppelin-grace-note-hakamori-to-neko-to-majutsushi-dub.png",
+            "Episode": "Episode 1"
+        },
+        {
+            "Name": "Shikioriori (Dub)",
+            "Link": "https://gogoanime.ai/shikioriori-dub-episode-1",
+            "Image": "https://cdnimg.xyz/cover/shikioriori-dub.png",
+            "Episode": "Episode 1"
+        },
+        {
+            "Name": "Boruto: Naruto the Movie (Dub)",
+            "Link": "https://gogoanime.ai/boruto-naruto-the-movie-dub-episode-1",
+            "Image": "https://cdnimg.xyz/cover/boruto-naruto-the-movie-dub.png",
+            "Episode": "Episode 1"
+        },
+        {
+            "Name": "Naruto: Shippuuden Movie 6 - Road to Ninja (Dub)",
+            "Link": "https://gogoanime.ai/naruto-shippuuden-movie-6-road-to-ninja-dub-episode-1",
+            "Image": "https://cdnimg.xyz/cover/naruto-shippuuden-movie-6-road-to-ninja-dub.png",
+            "Episode": "Episode 1"
+        },
+        {
+            "Name": "Naruto: Shippuuden Movie 5 - Blood Prison (Dub)",
+            "Link": "https://gogoanime.ai/naruto-shippuuden-movie-5-blood-prison-dub-episode-1",
+            "Image": "https://cdnimg.xyz/cover/naruto-shippuuden-movie-5-blood-prison-dub.png",
+            "Episode": "Episode 1"
+        },
+        {
+            "Name": "Naruto: Shippuuden Movie 4 - The Lost Tower (Dub)",
+            "Link": "https://gogoanime.ai/naruto-shippuuden-movie-4-the-lost-tower-dub-episode-1",
+            "Image": "https://cdnimg.xyz/cover/naruto-shippuuden-movie-4-the-lost-tower-dub.png",
+            "Episode": "Episode 1"
+        },
+        {
+            "Name": "Naruto: Shippuuden Movie 3 - Hi no Ishi wo Tsugu Mono (Dub)",
+            "Link": "https://gogoanime.ai/naruto-shippuuden-movie-3-hi-no-ishi-wo-tsugu-mono-dub-episode-1",
+            "Image": "https://cdnimg.xyz/cover/naruto-shippuuden-movie-3-hi-no-ishi-wo-tsugu-mono-dub.png",
+            "Episode": "Episode 1"
+        },
+        {
+            "Name": "Naruto: Shippuuden Movie 2 - Kizuna (Dub)",
+            "Link": "https://gogoanime.ai/naruto-shippuuden-movie-2-kizuna-dub-episode-1",
+            "Image": "https://cdnimg.xyz/cover/naruto-shippuuden-movie-2-kizuna-dub.png",
+            "Episode": "Episode 1"
+        },
+        {
+            "Name": "Naruto: Shippuuden Movie 1 (Dub)",
+            "Link": "https://gogoanime.ai/naruto-shippuuden-movie-1-dub-episode-1",
+            "Image": "https://cdnimg.xyz/cover/naruto-shippuuden-movie-1-dub.png",
+            "Episode": "Episode 1"
+        },
+        {
+            "Name": "Boruto: Naruto the Movie - Naruto ga Hokage ni Natta Hi (Dub)",
+            "Link": "https://gogoanime.ai/boruto-naruto-the-movie-naruto-ga-hokage-ni-natta-hi-dub-episode-1",
+            "Image": "https://cdnimg.xyz/cover/boruto-naruto-the-movie-naruto-ga-hokage-ni-natta-hi-dub.png",
+            "Episode": "Episode 1"
+        },
+        {
+            "Name": "D4DJ: First Mix (Dub)",
+            "Link": "https://gogoanime.ai/d4dj-first-mix-dub-episode-13",
+            "Image": "https://cdnimg.xyz/cover/d4dj-first-mix-dub.png",
+            "Episode": "Episode 13"
+        },
+        {
+            "Name": "Rifle Is Beautiful (Dub)",
+            "Link": "https://gogoanime.ai/rifle-is-beautiful-dub-episode-9",
+            "Image": "https://cdnimg.xyz/cover/rifle-is-beautiful-dub.png",
+            "Episode": "Episode 9"
+        },
+        {
+            "Name": "Choushin Hime Dangaizer 3 (Dub)",
+            "Link": "https://gogoanime.ai/choushin-hime-dangaizer-3-dub-episode-4",
+            "Image": "https://cdnimg.xyz/cover/choushin-hime-dangaizer-3-dub.png",
+            "Episode": "Episode 4"
+        },
+        {
+            "Name": "Kore wa Zombie Desu ka? OVA (Dub)",
+            "Link": "https://gogoanime.ai/kore-wa-zombie-desu-ka-ova-dub-episode-1",
+            "Image": "https://cdnimg.xyz/cover/kore-wa-zombie-desu-ka-ova-dub.png",
+            "Episode": "Episode 1"
+        },
+        {
+            "Name": "Shingeki no Kyojin: The Final Season (Dub)",
+            "Link": "https://gogoanime.ai/shingeki-no-kyojin-the-final-season-dub-episode-8",
+            "Image": "https://cdnimg.xyz/cover/shingeki-no-kyojin-the-final-season-dub.png",
+            "Episode": "Episode 8"
+        },
+        {
+            "Name": "Senyoku no Sigrdrifa (Dub)",
+            "Link": "https://gogoanime.ai/senyoku-no-sigrdrifa-dub-episode-12",
+            "Image": "https://cdnimg.xyz/cover/senyoku-no-sigrdrifa-dub.png",
+            "Episode": "Episode 12"
+        },
+        {
+            "Name": "Kamisama ni Natta Hi (Dub)",
+            "Link": "https://gogoanime.ai/kamisama-ni-natta-hi-dub-episode-12",
+            "Image": "https://cdnimg.xyz/cover/kamisama-ni-natta-hi-dub.png",
+            "Episode": "Episode 12"
+        },
+        {
+            "Name": "Shachou, Battle no Jikan Desu! (Dub)",
+            "Link": "https://gogoanime.ai/shachou-battle-no-jikan-desu-dub-episode-12",
+            "Image": "https://cdnimg.xyz/cover/shachou-battle-no-jikan-desu-dub.png",
+            "Episode": "Episode 12"
+        },
+        {
+            "Name": "Kidou Senkan Nadesico: The Prince of Darkness (Dub)",
+            "Link": "https://gogoanime.ai/kidou-senkan-nadesico-the-prince-of-darkness-dub-episode-1",
+            "Image": "https://cdnimg.xyz/cover/kidou-senkan-nadesico-the-prince-of-darkness-dub.png",
+            "Episode": "Episode 1"
+        },
+        {
+            "Name": "Colorful (Movie) (Dub)",
+            "Link": "https://gogoanime.ai/colorful-movie-dub-episode-1",
+            "Image": "https://cdnimg.xyz/cover/colorful-movie-dub.png",
+            "Episode": "Episode 1"
+        },
+        {
+            "Name": "Ore dake Haireru Kakushi Dungeon (Dub)",
+            "Link": "https://gogoanime.ai/ore-dake-haireru-kakushi-dungeon-dub-episode-1",
+            "Image": "https://cdnimg.xyz/cover/ore-dake-haireru-kakushi-dungeon-dub.png",
+            "Episode": "Episode 1"
+        },
+        {
+            "Name": "Tenkuu Shinpan (Dub)",
+            "Link": "https://gogoanime.ai/tenkuu-shinpan-dub-episode-12",
+            "Image": "https://cdnimg.xyz/cover/tenkuu-shinpan-dub.png",
+            "Episode": "Episode 12"
+        },
+        {
+            "Name": "Mobile Suit Gundam: Iron-Blooded Orphans (Dub)",
+            "Link": "https://gogoanime.ai/mobile-suit-gundam-iron-blooded-orphans-dub-episode-25",
+            "Image": "https://cdnimg.xyz/cover/mobile-suit-gundam-iron-blooded-orphans-dub.png",
+            "Episode": "Episode 25"
+        },
+        {
+            "Name": "Pokemon Movie 06: Nanayo no Negaiboshi Jirachi (Dub)",
+            "Link": "https://gogoanime.ai/pokemon-movie-06-nanayo-no-negaiboshi-jirachi-dub-episode-1",
+            "Image": "https://cdnimg.xyz/cover/pokemon-movie-06-nanayo-no-negaiboshi-jirachi-dub.png",
+            "Episode": "Episode 1"
+        },
+        {
+            "Name": "Ultraman USA (Dub)",
+            "Link": "https://gogoanime.ai/ultraman-usa-dub-episode-1",
+            "Image": "https://cdnimg.xyz/cover/ultraman-usa-dub.png",
+            "Episode": "Episode 1"
+        },
+        {
+            "Name": "Galaxy Angel 4 (Dub)",
+            "Link": "https://gogoanime.ai/galaxy-angel-4-dub-episode-4",
+            "Image": "https://cdnimg.xyz/cover/galaxy-angel-4-dub.png",
+            "Episode": "Episode 4"
+        },
+        {
+            "Name": "Puni Puni?Poemii (Dub)",
+            "Link": "https://gogoanime.ai/puni-punipoemii-dub-episode-2",
+            "Image": "https://cdnimg.xyz/cover/puni-punipoemii-dub.png",
+            "Episode": "Episode 2"
+        },
+        {
+            "Name": "Galaxy Angel 3 Specials (Dub)",
+            "Link": "https://gogoanime.ai/galaxy-angel-3-specials-dub-episode-3",
+            "Image": "https://cdnimg.xyz/cover/galaxy-angel-3-specials-dub.png",
+            "Episode": "Episode 3"
+        },
+        {
+            "Name": "Galaxy Angel 3 (Dub)",
+            "Link": "https://gogoanime.ai/galaxy-angel-3-dub-episode-26",
+            "Image": "https://cdnimg.xyz/cover/galaxy-angel-3-dub.png",
+            "Episode": "Episode 26"
+        },
+        {
+            "Name": "Maoujou De Oyasumi (Dub)",
+            "Link": "https://gogoanime.ai/maoujou-de-oyasumi-dub-episode-1",
+            "Image": "https://cdnimg.xyz/cover/maoujou-de-oyasumi-dub.png",
+            "Episode": "Episode 1"
+        },
+        {
+            "Name": "Shokugeki no Souma: Shin no Sara (Dub)",
+            "Link": "https://gogoanime.ai/shokugeki-no-souma-shin-no-sara-dub-episode-12",
+            "Image": "https://cdnimg.xyz/cover/shokugeki-no-souma-shin-no-sara-dub.png",
+            "Episode": "Episode 12"
+        },
+        {
+            "Name": "Mushoku Tensei: Isekai Ittara Honki Dasu (Dub)",
+            "Link": "https://gogoanime.ai/mushoku-tensei-isekai-ittara-honki-dasu-dub-episode-2",
+            "Image": "https://cdnimg.xyz/cover/mushoku-tensei-isekai-ittara-honki-dasu-dub.png",
+            "Episode": "Episode 2"
+        },
+        {
+            "Name": "Initial D Fourth Stage (Dub)",
+            "Link": "https://gogoanime.ai/initial-d-fourth-stage-dub-episode-24",
+            "Image": "https://cdnimg.xyz/cover/initial-d-fourth-stage-dub.png",
+            "Episode": "Episode 24"
+        },
+        {
+            "Name": "Fate/Apocrypha (Dub)",
+            "Link": "https://gogoanime.ai/fateapocrypha-dub-episode-25",
+            "Image": "https://cdnimg.xyz/cover/fateapocrypha-dub.png",
+            "Episode": "Episode 25"
+        },
+        {
+            "Name": "Shin Getter Robo (Dub)",
+            "Link": "https://gogoanime.ai/shin-getter-robo-dub-episode-13",
+            "Image": "https://cdnimg.xyz/cover/shin-getter-robo-dub.png",
+            "Episode": "Episode 13"
+        },
+        {
+            "Name": "Listeners (Dub)",
+            "Link": "https://gogoanime.ai/listeners-dub-episode-12",
+            "Image": "https://cdnimg.xyz/cover/listeners-dub.png",
+            "Episode": "Episode 12"
+        },
+        {
+            "Name": "Gyakusatsu Kikan (Dub)",
+            "Link": "https://gogoanime.ai/gyakusatsu-kikan-dub-episode-1",
+            "Image": "https://cdnimg.xyz/cover/gyakusatsu-kikan-dub.png",
+            "Episode": "Episode 1"
+        },
+        {
+            "Name": "Mobile Suit Gundam SEED Destiny Final Plus: The Chosen Future (Dub)",
+            "Link": "https://gogoanime.ai/mobile-suit-gundam-seed-destiny-final-plus-the-chosen-future-dub-episode-1",
+            "Image": "https://cdnimg.xyz/cover/mobile-suit-gundam-seed-destiny-final-plus-the-chosen-future-dub.png",
+            "Episode": "Episode 1"
+        },
+        {
+            "Name": "Change!! Getter Robo: Sekai Saigo no Hi (Dub)",
+            "Link": "https://gogoanime.ai/change-getter-robo-sekai-saigo-no-hi-dub-episode-13",
+            "Image": "https://cdnimg.xyz/cover/change-getter-robo-sekai-saigo-no-hi-dub.png",
+            "Episode": "Episode 13"
+        },
+        {
+            "Name": "Tetsujin 28-gou (2004) (Dub)",
+            "Link": "https://gogoanime.ai/tetsujin-28-gou-2004-dub-episode-26",
+            "Image": "https://cdnimg.xyz/cover/tetsujin-28-gou-2004-dub.png",
+            "Episode": "Episode 26"
+        },
+        {
+            "Name": "Dr. Stone: Stone Wars (Dub)",
+            "Link": "https://gogoanime.ai/dr-stone-stone-wars-dub-episode-2",
+            "Image": "https://cdnimg.xyz/cover/dr-stone-stone-wars-dub.png",
+            "Episode": "Episode 2"
+        },
+        {
+            "Name": "Birthday Wonderland (Dub)",
+            "Link": "https://gogoanime.ai/birthday-wonderland-dub-episode-1",
+            "Image": "https://cdnimg.xyz/cover/birthday-wonderland-dub.png",
+            "Episode": "Episode 1"
+        },
+        {
+            "Name": "Kishibe Rohan wa Ugokanai (Dub)",
+            "Link": "https://gogoanime.ai/kishibe-rohan-wa-ugokanai-dub-episode-4",
+            "Image": "https://cdnimg.xyz/cover/kishibe-rohan-wa-ugokanai-dub.png",
+            "Episode": "Episode 4"
+        },
+        {
+            "Name": "Saiunkoku Monogatari 2nd Season (Dub)",
+            "Link": "https://gogoanime.ai/saiunkoku-monogatari-2nd-season-dub-episode-39",
+            "Image": "https://cdnimg.xyz/cover/saiunkoku-monogatari-2nd-season-dub.png",
+            "Episode": "Episode 39"
+        },
+        {
+            "Name": "Kuma Kuma Kuma Bear (Dub)",
+            "Link": "https://gogoanime.ai/kuma-kuma-kuma-bear-dub-episode-5",
+            "Image": "https://cdnimg.xyz/cover/kuma-kuma-kuma-bear-dub.png",
+            "Episode": "Episode 5"
+        },
+        {
+            "Name": "Golden Kamuy 3rd Season (Dub)",
+            "Link": "https://gogoanime.ai/golden-kamuy-3rd-season-dub-episode-9",
+            "Image": "https://cdnimg.xyz/cover/golden-kamuy-3rd-season-dub.png",
+            "Episode": "Episode 9"
+        },
+        {
+            "Name": "Black Clover (TV) (Dub)",
+            "Link": "https://gogoanime.ai/black-clover-tv-dub-episode-145",
+            "Image": "https://cdnimg.xyz/cover/black-clover-tv-dub.png",
+            "Episode": "Episode 145"
+        },
+        {
+            "Name": "Tamako Market (Dub)",
+            "Link": "https://gogoanime.ai/tamako-market-dub-episode-12",
+            "Image": "https://cdnimg.xyz/cover/tamako-market-dub.png",
+            "Episode": "Episode 12"
+        },
+        {
+            "Name": "Magi: Sinbad no Bouken (TV) (Dub)",
+            "Link": "https://gogoanime.ai/magi-sinbad-no-bouken-tv-dub-episode-13",
+            "Image": "https://cdnimg.xyz/cover/magi-sinbad-no-bouken-tv-dub.png",
+            "Episode": "Episode 13"
+        },
+        {
+            "Name": "Mahouka Koukou no Rettousei: Raihousha-hen (Dub)",
+            "Link": "https://gogoanime.ai/mahouka-koukou-no-rettousei-raihousha-hen-dub-episode-13",
+            "Image": "https://cdnimg.xyz/cover/mahouka-koukou-no-rettousei-raihousha-hen-dub.png",
+            "Episode": "Episode 13"
+        },
+        {
+            "Name": "One Piece (Dub)",
+            "Link": "https://gogoanime.ai/one-piece-dub-episode-667",
+            "Image": "https://cdnimg.xyz/cover/one-piece-dub.png",
+            "Episode": "Episode 667"
+        },
+        {
+            "Name": "Devilman: Crybaby (Dub)",
+            "Link": "https://gogoanime.ai/devilman-crybaby-dub-episode-10",
+            "Image": "https://cdnimg.xyz/cover/devilman-crybaby-dub.png",
+            "Episode": "Episode 10"
+        },
+        {
+            "Name": "Noblesse (Dub)",
+            "Link": "https://gogoanime.ai/noblesse-dub-episode-13",
+            "Image": "https://cdnimg.xyz/cover/noblesse-dub.png",
+            "Episode": "Episode 13"
+        },
+        {
+            "Name": "Takunomi. (Dub)",
+            "Link": "https://gogoanime.ai/takunomi-dub-episode-12",
+            "Image": "https://cdnimg.xyz/cover/takunomi-dub.png",
+            "Episode": "Episode 12"
+        },
+        {
+            "Name": "Tensei shitara Slime Datta Ken (Dub)",
+            "Link": "https://gogoanime.ai/tensei-shitara-slime-datta-ken-dub-episode-24-9",
+            "Image": "https://cdnimg.xyz/cover/tensei-shitara-slime-datta-ken-dub.png",
+            "Episode": "Episode 24.9"
+        },
+        {
+            "Name": "Strange Dawn (Dub)",
+            "Link": "https://gogoanime.ai/strange-dawn-dub-episode-7",
+            "Image": "https://cdnimg.xyz/cover/strange-dawn-dub.png",
+            "Episode": "Episode 7"
+        },
+        {
+            "Name": ".hack//Tasogare no Udewa Densetsu (Dub)",
+            "Link": "https://gogoanime.ai/hacktasogare-no-udewa-densetsu-dub-episode-12",
+            "Image": "https://cdnimg.xyz/cover/hacktasogare-no-udewa-densetsu-dub.png",
+            "Episode": "Episode 12"
+        },
+        {
+            "Name": "Gleipnir (Dub)",
+            "Link": "https://gogoanime.ai/gleipnir-dub-episode-13",
+            "Image": "https://cdnimg.xyz/cover/gleipnir-dub.png",
+            "Episode": "Episode 13"
+        },
+        {
+            "Name": "Sword Art Online: Alicization - War of Underworld 2nd Season (Dub)",
+            "Link": "https://gogoanime.ai/sword-art-online-alicization-war-of-underworld-2nd-season-dub-episode-11",
+            "Image": "https://cdnimg.xyz/cover/sword-art-online-alicization-war-of-underworld-2nd-season-dub.png",
+            "Episode": "Episode 11"
+        },
+        {
+            "Name": "Earwig And The Witch (Dub)",
+            "Link": "https://gogoanime.ai/earwig-and-the-witch-dub-episode-1",
+            "Image": "https://cdnimg.xyz/cover/earwig-and-the-witch-dub.png",
+            "Episode": "Episode 1"
+        },
+        {
+            "Name": "Tonikaku Kawaii (Dub)",
+            "Link": "https://gogoanime.ai/tonikaku-kawaii-dub-episode-12",
+            "Image": "https://cdnimg.xyz/cover/tonikaku-kawaii-dub.png",
+            "Episode": "Episode 12"
+        },
+        {
+            "Name": "Dungeon ni Deai wo Motomeru no wa Machigatteiru Darou ka III (Dub)",
+            "Link": "https://gogoanime.ai/dungeon-ni-deai-wo-motomeru-no-wa-machigatteiru-darou-ka-iii-dub-episode-12",
+            "Image": "https://cdnimg.xyz/cover/dungeon-ni-deai-wo-motomeru-no-wa-machigatteiru-darou-ka-iii-dub.png",
+            "Episode": "Episode 12"
+        },
+        {
+            "Name": "Tamayomi (Dub)",
+            "Link": "https://gogoanime.ai/tamayomi-dub-episode-12",
+            "Image": "https://cdnimg.xyz/cover/tamayomi-dub.png",
+            "Episode": "Episode 12"
+        },
+        {
+            "Name": "Shin Sakura Taisen the Animation (Dub)",
+            "Link": "https://gogoanime.ai/shin-sakura-taisen-the-animation-dub-episode-12",
+            "Image": "https://cdnimg.xyz/cover/shin-sakura-taisen-the-animation-dub.png",
+            "Episode": "Episode 12"
+        },
+        {
+            "Name": "Oda Nobuna no Yabou (Dub)",
+            "Link": "https://gogoanime.ai/oda-nobuna-no-yabou-dub-episode-12",
+            "Image": "https://cdnimg.xyz/cover/oda-nobuna-no-yabou-dub.png",
+            "Episode": "Episode 12"
+        },
+        {
+            "Name": "Gosick (Dub)",
+            "Link": "https://gogoanime.ai/gosick-dub-episode-24",
+            "Image": "https://cdnimg.xyz/cover/gosick-dub.png",
+            "Episode": "Episode 24"
+        },
+        {
+            "Name": "100-man no Inochi no Ue ni Ore wa Tatteiru (Dub)",
+            "Link": "https://gogoanime.ai/100-man-no-inochi-no-ue-ni-ore-wa-tatteiru-dub-episode-12",
+            "Image": "https://cdnimg.xyz/cover/100-man-no-inochi-no-ue-ni-ore-wa-tatteiru-dub.png",
+            "Episode": "Episode 12"
+        },
+        {
+            "Name": "Motto To LOVE-Ru (Dub)",
+            "Link": "https://gogoanime.ai/motto-to-love-ru-dub-episode-12",
+            "Image": "https://cdnimg.xyz/cover/motto-to-love-ru-dub.png",
+            "Episode": "Episode 12"
+        },
+        {
+            "Name": "Yu?Gi?Oh! VRAINS (Dub)",
+            "Link": "https://gogoanime.ai/yugioh-vrains-dub-episode-20",
+            "Image": "https://cdnimg.xyz/cover/yugioh-vrains-dub.png",
+            "Episode": "Episode 20"
+        },
+        {
+            "Name": "Gintama Season 4 (Dub)",
+            "Link": "https://gogoanime.ai/gintama-season-4-dub-episode-51",
+            "Image": "https://cdnimg.xyz/cover/gintama-season-4-dub.png",
+            "Episode": "Episode 51"
+        },
+        {
+            "Name": "Sengoku Basara: Judge End (Dub)",
+            "Link": "https://gogoanime.ai/sengoku-basara-judge-end-dub-episode-12",
+            "Image": "https://cdnimg.xyz/cover/sengoku-basara-judge-end-dub.png",
+            "Episode": "Episode 12"
+        },
+        {
+            "Name": "Deca-Dence (Dub)",
+            "Link": "https://gogoanime.ai/deca-dence-dub-episode-12",
+            "Image": "https://cdnimg.xyz/cover/deca-dence-dub.png",
+            "Episode": "Episode 12"
+        },
+        {
+            "Name": "Hitsugi no Chaika: Avenging Battle (Dub)",
+            "Link": "https://gogoanime.ai/hitsugi-no-chaika-avenging-battle-dub-episode-10",
+            "Image": "https://cdnimg.xyz/cover/hitsugi-no-chaika-avenging-battle-dub.png",
+            "Episode": "Episode 10"
+        },
+        {
+            "Name": "Queen's Blade: Utsukushiki Toushi-tachi (Dub)",
+            "Link": "https://gogoanime.ai/queens-blade-utsukushiki-toushi-tachi-dub-episode-6",
+            "Image": "https://cdnimg.xyz/cover/queens-blade-utsukushiki-toushi-tachi-dub.png",
+            "Episode": "Episode 6"
+        }
+    ]
+}
