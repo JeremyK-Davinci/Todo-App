@@ -14,7 +14,7 @@ body{
     font-size: 72px;
 }
 
-#overlayBackground{
+#overlayBackground, #overlayBackground2{
     position: fixed;
     display: none;
     width: 100%;
@@ -27,13 +27,12 @@ body{
     z-index: 2;
 }
 
-#overlayContainer{
-    position: fixed;
+#overlayContainer, #overlayContainer2{
+    position: relative;
     top: 20%;
     left: 50%;
     background-color: transparent;
-    border: 2px solid black;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, 0);
 }
 
 #task{
@@ -55,6 +54,7 @@ body{
 .list-group-item{
     background: none;
     max-height: 3rem;
+    border: 2px solid gainsboro;
 }
 
 .form-submit{

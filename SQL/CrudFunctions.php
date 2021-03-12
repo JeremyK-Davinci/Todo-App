@@ -65,30 +65,18 @@
         foreach($values as $newTask){
             try{
                 $conn = openConnection();
-                $query = $conn->prepare("SELECT * FROM tasks WHERE taskName=:taskname");
-                $query->bindParam(":taskname", $newTask);
-                $query->execute();
-                $result = $query->fetchAll();
-                if($query->rowCount($result) > 0){
-                    continue;
-                }
 
                 $query = $conn->prepare("INSERT INTO tasks (taskName, taskComplete) VALUES (:taskname, 0)");
                 $query->bindParam(":taskname", sanitize($newTask));
                 $query->execute();
-
-                $query = $conn->prepare("SELECT * FROM tasks WHERE taskName=:taskname");
-                $query->bindParam(":taskname", sanitize($newTask));
-                $query->execute();
-                $result = $query->fetchAll();
-                $task = $result[0]['taskId'];
+                $lastTaskId = $conn->lastInsertId();
 
                 $query = $conn->prepare("SELECT * FROM notes WHERE id=:id");
                 $query->bindParam(":id", $noteId);
                 $query->execute();
                 $result = $query->fetchAll();
                 $currentTasks = $result[0]['tasks'];
-                $currentTasks = $currentTasks . ", " . $task;
+                $currentTasks = $currentTasks . ", " . $lastTaskId;
 
                 $query = $conn->prepare("UPDATE notes SET tasks=:tasks WHERE id=:noteid");
                 $query->bindParam(":tasks", $currentTasks);
@@ -102,6 +90,89 @@
         header("location: ../CRUD/Edit.php?id=" . $noteId);
     }
 
+    function attemptEditRemoveTasks(){
+        $noteId = -1;
+        $keys = [];
+        $values = [];
+        foreach($_POST as $key => $value){
+            if($key == "EditRemoveTasks") continue;
+            if($key == "Note"){
+                $noteId = $value;
+                continue;
+            }
+            array_push($keys, str_replace("_", " ", $key));
+            array_push($values, $value);
+        }
+
+        if($noteId == -1){
+            header("location: ../Notes.php?error=9");
+        }
+        $card = cardFromId($noteId);
+        foreach($values as $task){
+            try{
+                $conn = openConnection();
+
+                $query = $conn->prepare("DELETE FROM tasks WHERE taskId=:id");
+                $query->bindParam(":id", $task);
+                $query->execute();
+
+                $taskList = explode(",", $card[0]['tasks']);
+                $newTaskList = [];
+                foreach($taskList as $item){
+                    if(strval($item) == strval($task)) continue;
+                    array_push($newTaskList, $item);
+                }
+                $tasks = implode($newTaskList, ",");
+
+                $query = $conn->prepare("UPDATE notes SET tasks=:tasks WHERE id=:noteid");
+                $query->bindParam(":tasks", $tasks);
+                $query->bindParam(":noteid", $noteId);
+                $query->execute();
+            }
+            catch(PDOException $e){
+                echo "Connection throttled: " . $e->getMessage();
+            }
+        }
+        header("location: ../CRUD/Edit.php?id=" . $noteId);
+    }
+
+    function attemptDeleteNote(){
+        $noteId = -1;
+        foreach($_POST as $key => $value){
+            if($key == "Note"){
+                $noteId = $value;
+                break;
+            }
+        }
+        if($noteId == -1){
+            header("location: ../Notes.php?error=9");
+        }
+        $card = cardFromId($noteId);
+
+        $conn = openConnection();
+
+        $query = $conn->prepare("SELECT * FROM notes WHERE id=:id");
+        $query->bindParam(":id", $noteId);
+        $query->execute();
+        $result = $query->fetchAll();
+        $tasks = explode(",", $result[0]['tasks']);
+        echo var_dump($tasks);
+
+        foreach($tasks as $taskId){
+            $query = $conn->prepare("DELETE FROM tasks WHERE taskId=:id");
+            $query->bindParam(":id", $taskId);
+            $query->execute();
+        }
+
+        $query = $conn->prepare("DELETE FROM notes WHERE id=:id");
+        $query->bindParam(":id", $noteId);
+        $query->execute();
+
+        header("location: ../Notes.php");
+    }
+
+
+
     if(isset($_POST['Edit'])){
         attemptEdit();
     }
@@ -109,6 +180,16 @@
     if(isset($_POST['EditAddTasks'])){
         attemptEditAddTasks();
     }
+
+    if(isset($_POST['EditRemoveTasks'])){
+        attemptEditRemoveTasks();
+    }
+
+    if(isset($_POST['Delete'])){
+        attemptDeleteNote();
+    }
+
+
 
     function isTaskComplete($array, $index){
         if(strtolower($array[$index]) == "true" || strtolower($array[$index]) == "complete") return 1;

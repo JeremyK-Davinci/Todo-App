@@ -38,7 +38,7 @@
                         </div>
                         <div class="Note-Footer col-12 text-right">
                             <a href="CRUD/Edit.php?id=<?=$card['id']?>" class="btn btn-outline-light font-weight-bold mb-2"><i class="far fa-edit"></i> Edit</a>
-                            <a href="#" class="btn btn-outline-danger font-weight-bold mb-2"><i class="fas fa-ban"></i> Remove</a>
+                            <a href="CRUD/Delete.php?id=<?=$card['id']?>" class="btn btn-outline-danger font-weight-bold mb-2"><i class="fas fa-ban"></i> Remove</a>
                         </div>
                     </div>
                 <?php }?>

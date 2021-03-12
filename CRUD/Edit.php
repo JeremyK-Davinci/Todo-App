@@ -1,6 +1,5 @@
 <?php include ("../Includes/Header2.php");?>
-<?php 
-    session_start();
+<?php
 
     if(!isset($_SESSION['loggedIn'])){
         header("location: ../Index.php");
@@ -15,11 +14,11 @@
     $tasklist = explode(',', $tasks);
 ?>
     <div id="overlayBackground">
-        <div class="col-10 text-center" id="overlayContainer">
+        <div class="col-4 text-center border border-light rounded" id="overlayContainer">
             <button type="button" class="btn btn-outline-light rounded toggleOverlay float-right mt-3">Close</button>
             <form action="../SQL/CrudFunctions.php" method="post">
                 <input type="hidden" name="Note" value=<?=$noteId?>>
-                <div class="container text-left col-4 offset-4 bg-dark rounded offset-1 mt-5 pb-2">
+                <div class="container text-left col-8 offset-2 bg-dark rounded offset-1 mt-5 pb-2">
                     <h3 class="text-light text-center">New Tasks</h3>
                     <div class="mt-3 mb-2" id="TaskContainer">
                     </div>
@@ -31,9 +30,35 @@
         </div>
     </div>
 
+    <div id="overlayBackground2">
+        <div class="col-4 text-center border border-light rounded" id="overlayContainer2">
+            <button type="button" class="btn btn-outline-light rounded toggleOverlay2 float-right mt-3">Close</button>
+            <form action="../SQL/CrudFunctions.php" method="post">
+                <input type="hidden" name="Note" value=<?=$noteId?>>
+                <div class="container text-left col-8 offset-2 bg-dark rounded offset-1 mt-5 pb-2">
+                    <h3 class="text-light text-center">Tasks</h3>
+                    <div class="mt-3 mb-2" id="TaskContainerRemove">
+                        <?php foreach($tasklist as $taskId){?>
+                            <?php $task = tasksFromId($taskId);?>
+                            <div class="d-flex offset-2">
+                                <div class="col-8 mb-3">
+                                    <h2 class="text-light text-left"><?= $task['taskName']?></h2>
+                                </div>
+                                <div class="col-4 mt-2">
+                                    <input type="checkbox" name="<?= $taskId?>" class="form-check-input CheckRemove" value="<?= $taskId?>">
+                                </div>
+                            </div>
+                        <?php }?>
+                    </div>
+                </div>
+                <button type="submit" class="btn btn-outline-danger rounded col-2 mt-3 mb-3" name="EditRemoveTasks" value="EditRemoveTasks">Remove Tasks</button>
+            </form>
+        </div>
+    </div>
+
     <form action="../SQL/CrudFunctions.php" method="post">
         <div class="container text-center col-10 offset-1 mt-5 mb-2">
-            <h1 class="text-white text-center col-12" id="HeaderText">Editing Task : <?= $note[0]['title']?></h1>
+            <h1 class="text-white text-center col-12" id="HeaderText">Editing task : <?= $note[0]['title']?></h1>
             <div class="container col-12 mt-5 mb-2">
                 <input type="hidden" name="Note" value=<?=$noteId?>>
                 <?php foreach($tasklist as $taskId){?>
@@ -49,7 +74,9 @@
                     </div>
                 <?php }?>
                 <button type="button" class="btn btn-outline-light rounded col-2 ml-4 toggleOverlay">Add Task</button>
-                <button type="submit" class="btn btn-outline-success rounded col-2" name="Edit" value="Edit">Edit</button>
+                <button type="button" class="btn btn-outline-light rounded col-2 toggleOverlay2">Remove Task</button>
+                <br>
+                <button type="submit" class="btn btn-outline-success rounded col-4 ml-4 mt-2" name="Edit" value="Edit">Edit</button>
             </div>
         </div>
     </form>
