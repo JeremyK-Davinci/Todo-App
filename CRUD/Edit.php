@@ -13,7 +13,7 @@
     $tasks = $note[0]['tasks'];
     $tasklist = explode(',', $tasks);
 ?>
-    <div id="overlayBackground">
+    <div id="overlayBackgroundAdd">
         <div class="col-4 text-center border border-light rounded" id="overlayContainer">
             <button type="button" class="btn btn-outline-light rounded toggleOverlay float-right mt-3">Close</button>
             <form action="../SQL/CrudFunctions.php" method="post">
@@ -30,9 +30,9 @@
         </div>
     </div>
 
-    <div id="overlayBackground2">
+    <div id="overlayBackgroundRemove">
         <div class="col-4 text-center border border-light rounded" id="overlayContainer2">
-            <button type="button" class="btn btn-outline-light rounded toggleOverlay2 float-right mt-3">Close</button>
+            <button type="button" class="btn btn-outline-light rounded toggleOverlayRemove float-right mt-3">Close</button>
             <form action="../SQL/CrudFunctions.php" method="post">
                 <input type="hidden" name="Note" value=<?=$noteId?>>
                 <div class="container text-left col-8 offset-2 bg-dark rounded offset-1 mt-5 pb-2">
@@ -66,7 +66,7 @@
                     <?php $taskComplete = $task['taskComplete'] == 0 ? 'incomplete' : 'complete'?>
                     <div class="d-flex offset-4">
                         <div class="col-4 mb-3">
-                            <h2 class="text-light text-left"><?= $task['taskName']?></h2>
+                            <input class="form-control text-left" type="text" name="taskName<?=$task['taskId']?>" value="<?= $task['taskName']?>">
                         </div>
                         <div class="col-8 mb-3">
                             <input class="form-control col-3" type="text" name="<?= $task['taskId']?>" value="<?=$taskComplete?>">
@@ -74,7 +74,7 @@
                     </div>
                 <?php }?>
                 <button type="button" class="btn btn-outline-light rounded col-2 ml-4 toggleOverlay">Add Task</button>
-                <button type="button" class="btn btn-outline-light rounded col-2 toggleOverlay2">Remove Task</button>
+                <button type="button" class="btn btn-outline-light rounded col-2 toggleOverlayRemove">Remove Task</button>
                 <br>
                 <button type="submit" class="btn btn-outline-success rounded col-4 ml-4 mt-2" name="Edit" value="Edit">Edit</button>
             </div>

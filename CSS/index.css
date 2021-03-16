@@ -14,7 +14,7 @@ body{
     font-size: 72px;
 }
 
-#overlayBackground, #overlayBackground2{
+#overlayBackgroundAdd, #overlayBackgroundRemove{
     position: fixed;
     display: none;
     width: 100%;
@@ -41,10 +41,6 @@ body{
 
 .edit-task-control, .edit-task-control:focus{
     background: none;
-}
-
-.align-self-end{
-    align-self: flex-end;
 }
 
 .form-container{

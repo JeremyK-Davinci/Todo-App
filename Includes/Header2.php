@@ -29,11 +29,11 @@
             <li class="d-inline pt-lg-5 pr-lg-5 pt-2 pr-2"><a class="text-white h5" href="../Index.php">Home</a></li>
             <?php if(isset($_SESSION['loggedIn'])){?>
                 <li class="d-inline pt-lg-5 pr-lg-5 pt-2 pr-2"><a class="text-white h5" href="../Notes.php">Notes</a></li>
-                <li class="d-inline float-right pr-lg-1 pr-2"><a class="text-white h5" href="Logout.php"><i class="fas fa-sign-out-alt"></i></a></li>
-                <li class="d-inline float-right pr-lg-3 pr-4"><a class="text-white h5" href="Dashboard.php"><i class="fas fa-user"></i></a></li>
+                <li class="d-inline float-right pr-lg-1 pr-2"><a class="text-white h5" href="../Users/Logout.php"><i class="fas fa-sign-out-alt"></i></a></li>
+                <li class="d-inline float-right pr-lg-3 pr-4"><a class="text-white h5" href="../Users/Dashboard.php"><i class="fas fa-user"></i></a></li>
             <?php } else{?>
-                <li class="d-inline float-right pr-lg-1 pr-2"><a class="text-white h5" href="Register.php"><i class="fas fa-user-plus"></i></a></li>
-                <li class="d-inline float-right pr-lg-3 pr-2"><a class="text-white h5" href="Login.php"><i class="fas fa-sign-in-alt"></i></a></li>
+                <li class="d-inline float-right pr-lg-1 pr-2"><a class="text-white h5" href="../Users/Register.php"><i class="fas fa-user-plus"></i></a></li>
+                <li class="d-inline float-right pr-lg-3 pr-2"><a class="text-white h5" href="../Users/Login.php"><i class="fas fa-sign-in-alt"></i></a></li>
             <?php }?>
         </ul>
     </div>

@@ -44,6 +44,8 @@
                 return "Server recieved incorrect note id and aborted";
             case 10:
                 return "The card that was accessed does not belong to you";
+            case 11:
+                return "Card name cannot be empty";
         }
     }
 
@@ -52,7 +54,7 @@
         $query = $conn->prepare("SELECT * FROM users WHERE id=:id");
         $query->bindParam(":id", $_SESSION['userId']);
         $query->execute();
-        $conn = NULL;
+        $conn = null;
         return $query->fetchAll();
     }
 

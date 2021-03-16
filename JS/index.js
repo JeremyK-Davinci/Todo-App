@@ -1,41 +1,45 @@
-var overlay1 = document.getElementById("overlayBackground");
-var overlay2 = document.getElementById("overlayBackground2");
+//when variable name contains add, it belongs to the add overlay
+//when variable name contains remove, it belongs to the remove overlay
+var overlayAdd = document.getElementById("overlayBackgroundAdd"); 
+var overlayRemove = document.getElementById("overlayBackgroundRemove"); 
 var container = document.getElementById("TaskContainer");
-var buttons = document.querySelectorAll(".toggleOverlay");
+var buttonsAdd = document.querySelectorAll(".toggleOverlay");
+var buttonsRemove = document.querySelectorAll(".toggleOverlayRemove");
 var buttonNewTask = document.getElementById("AddTask");
+var buttonNewTaskAdd = document.getElementById("AddTask2");
 var buttonRemoveNewTask = document.getElementById("RemoveTask");
-var buttons2 = document.querySelectorAll(".toggleOverlay2");
 var check = document.querySelectorAll(".CheckRemove");
 var counter = 0;
 
-buttons.forEach(button => {
+buttonsAdd.forEach(button => {
     button.addEventListener("click", toggleOverlay);
 });
-buttons2.forEach(button => {
-    button.addEventListener("click", toggleOverlay2);
+buttonsRemove.forEach(button => {
+    button.addEventListener("click", toggleoverlayRemove);
 });
-buttonNewTask.addEventListener("click", addTask);
-buttonRemoveNewTask.addEventListener("click", removeNewTask);
+if(buttonNewTask != null) buttonNewTask.addEventListener("click", addTask);
+if(buttonNewTaskAdd != null) buttonNewTaskAdd.addEventListener("click", addTask2);
+if(buttonRemoveNewTask != null) buttonRemoveNewTask.addEventListener("click", removeNewTask);
 
 check.forEach(box => {
     box.addEventListener("click", updateCheckedText);
 });
 
 function toggleOverlay(){
-    if(overlay1.style.display == 'block'){
-        overlay1.style.display = 'none';
+    if(overlayAdd.style.display == 'block'){
+        overlayAdd.style.display = 'none';
     }
     else{
-        overlay1.style.display = 'block';
+        overlayAdd.style.display = 'block';
     }
 }
 
-function toggleOverlay2(){
-    if(overlay2.style.display == 'block'){
-        overlay2.style.display = 'none';
+function toggleoverlayRemove(){
+    if(overlayRemove.style.display == 'block'){
+        overlayRemove.style.display = 'none';
     }
     else{
-        overlay2.style.display = 'block';
+        overlayRemove.style.display = 'block';
     }
 }
 
@@ -60,6 +64,17 @@ function addTask(){
     inputName.setAttribute("name", `NewTask${counter}`);
     inputName.setAttribute("type", 'text');
     inputName.setAttribute("placeholder", "name");
+
+    container.appendChild(inputName);
+    counter++;
+}
+
+function addTask2(){
+    var inputName = document.createElement("input");
+    inputName.classList.add("form-control", "mt-2", "mb-3");
+    inputName.setAttribute("name", `NewTask${counter}`);
+    inputName.setAttribute("type", 'text');
+    inputName.setAttribute("placeholder", "task name");
 
     container.appendChild(inputName);
     counter++;

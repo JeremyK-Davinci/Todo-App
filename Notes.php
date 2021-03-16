@@ -5,7 +5,7 @@
     $error = getErrorMessageFromId($errorId);
 ?>
     <p class="fixed-top bg-danger text-center text-light mt-5"><?= $error?></p>
-    <a href="#" class="btn btn-outline-light font-weight-bold align-self-end offset-11 mt-4" id="newNoteButton"><i class="fas fa-plus"></i> Add</a>
+    <a href="CRUD/Add.php" class="btn btn-outline-light font-weight-bold align-self-end offset-11 mt-4" id="newNoteButton"><i class="fas fa-plus"></i> Add</a>
     <div class="container text-left col-12 d-inline-flex mb-2">
         <div class="col-10 d-inline-flex">
             <?php if($cards != NULL){?>
