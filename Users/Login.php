@@ -9,7 +9,7 @@
 
 <div class="form-container border border-dark rounded col-8 col-md-6 col-lg-2 offset-2 offset-md-3 offset-lg-5">
     <h1 class="text-white text-center">Login</h1>
-    <form action="../SQL/UserFunctions.php" method="post" name="login" autocomplete="off">
+    <form action="../SQL/UserFunctions/Login.php" method="post" name="login" autocomplete="off">
 
         <?php if(!empty($error) && $errorId == 1){?>
             <div class="form-group text-left text-white">

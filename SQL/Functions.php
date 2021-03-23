@@ -49,6 +49,12 @@
         }
     }
 
+    function isTaskComplete($array, $index){
+        if(strtolower($array[$index]) == "true" || strtolower($array[$index]) == "complete") return 1;
+        else if(strtolower($array[$index]) == "false" || strtolower($array[$index]) == "incomplete") return 0;
+        else return 0;
+    }
+
     function userDetails(){
         $conn = openConnection();
         $query = $conn->prepare("SELECT * FROM users WHERE id=:id");

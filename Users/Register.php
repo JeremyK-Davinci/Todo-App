@@ -10,7 +10,7 @@
 
 <div class="form-container border border-dark rounded col-8 col-md-6 col-lg-2 offset-2 offset-md-3 offset-lg-5">
     <h1 class="text-white text-center">Register</h1>
-    <form action="../SQL/UserFunctions.php" method="post" name="register" autocomplete="off">
+    <form action="../SQL/UserFunctions/Register.php" method="post" name="register" autocomplete="off">
 
         <?php if(!empty($error) && $errorId == 4 || $errorId == 7){?>
             <div class="form-group text-left text-white">

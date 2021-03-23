@@ -6,7 +6,7 @@
     }
 ?>
 
-    <form action="../SQL/CrudFunctions.php" method="post">
+    <form action="../SQL/CrudFunctions/Add.php" method="post">
         <div class="container text-center col-lg-4 col-sm-8 col-12 offset-sm-2 offset-lg-4 mt-5 mb-2">
             <div class="text-center col-12 mb-5">
                 <h2 class="text-light" id="HeaderText">New Note</h2>

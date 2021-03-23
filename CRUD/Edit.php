@@ -16,7 +16,7 @@
     <div id="overlayBackgroundAdd">
         <div class="col-4 text-center border border-light rounded" id="overlayContainer">
             <button type="button" class="btn btn-outline-light rounded toggleOverlay float-right mt-3">Close</button>
-            <form action="../SQL/CrudFunctions.php" method="post">
+            <form action="../SQL/CrudFunctions/EditAddTasks.php" method="post">
                 <input type="hidden" name="Note" value=<?=$noteId?>>
                 <div class="container text-left col-8 offset-2 bg-dark rounded offset-1 mt-5 pb-2">
                     <h3 class="text-light text-center">New Tasks</h3>
@@ -33,7 +33,7 @@
     <div id="overlayBackgroundRemove">
         <div class="col-4 text-center border border-light rounded" id="overlayContainer2">
             <button type="button" class="btn btn-outline-light rounded toggleOverlayRemove float-right mt-3">Close</button>
-            <form action="../SQL/CrudFunctions.php" method="post">
+            <form action="../SQL/CrudFunctions/EditRemoveTasks.php" method="post">
                 <input type="hidden" name="Note" value=<?=$noteId?>>
                 <div class="container text-left col-8 offset-2 bg-dark rounded offset-1 mt-5 pb-2">
                     <h3 class="text-light text-center">Tasks</h3>
@@ -56,7 +56,7 @@
         </div>
     </div>
 
-    <form action="../SQL/CrudFunctions.php" method="post">
+    <form action="../SQL/CrudFunctions/Edit.php" method="post">
         <div class="container text-center col-10 offset-1 mt-5 mb-2">
             <h1 class="text-white text-center col-12" id="HeaderText">Editing task : <?= $note[0]['title']?></h1>
             <div class="container col-12 mt-5 mb-2">

@@ -1,5 +1,5 @@
 <?php 
-    require ("../SQL/UserFunctions.php");
+    require ("../SQL/Functions.php");
     session_start();
     ob_start();
     $User = UserDetails();

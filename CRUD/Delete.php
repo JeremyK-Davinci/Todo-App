@@ -13,7 +13,7 @@
     $tasklist = explode(',', $tasks);
 ?>
 
-<form action="../SQL/CrudFunctions.php" method="post">
+<form action="../SQL/CrudFunctions/Delete.php" method="post">
     <div class="container text-center col-10 offset-1 mt-5 mb-2">
         <h1 class="text-white text-center col-12" id="HeaderText">Are you sure you want to delete : <?= $note[0]['title']?></h1>
         <div class="container col-12 justify-content-center mt-5 mb-2 d-inline-flex">
